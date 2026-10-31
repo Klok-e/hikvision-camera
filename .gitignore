@@ -1,0 +1,22 @@
+# Vendor firmware and generated artifacts stay local.
+*.dav
+*.bin
+*.img
+*.exe
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+firmware/official/
+outputs/
+
+# Local agent settings and Python environments.
+.agents/
+.codex/
+.aws/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
